@@ -77,7 +77,7 @@
       "tag": "breath",
       "patterns": [
         "im having breathlessness",
-        "im facing problems in breathing",
+        "im facing problems in breathing"
       ],
       "responses": [
         "Have you tried to do yoga",
@@ -101,6 +101,16 @@
       "keep your surrounding clean",
       "Have a quarintine for atleast 14 days"
     ]
+    },
+
+    {
+      "tag": "okay",
+      "patterns": [
+        "okay", "ok", "hmm", "cool"
+      ],
+      "responses": [
+        "Anything else", "How can i help you more"
+      ]  
     },
 
     {
