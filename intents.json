@@ -1,0 +1,102 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you?",
+        "Is anyone there?",
+        "Hello Doctor",
+        "Good day",
+        "Good Morning Doctor",
+        "Good Afternoon",
+        "Good evening"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye Doctor", "Thank you!", "Goodbye", "Take care Doc", "Thanks Doctor"],
+      "responses": [
+        "Take Care",
+        "Get well soon",
+        "Have a nice day",
+        "Bye!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "Health",
+      "patterns": [
+        "Good Morning Doctor. I don’t feel good.",
+        "I’m having a temperature and even a sore throat.",
+        "Im having headache",
+        "im feeling ill",
+        "im unwell",
+        "im having running nose, and heavy head",
+        "im feeling blinding and unable to concenterate",
+        "im sick",
+        "I feel slightly cold when I sit under a fan.",
+        "Doctor I feel weak and do not feel like eating.",
+        "I feel like vomiting."
+       ],
+      "responses": [
+        "Since how long are you not feeling well?",
+        "Did you have motions yesterday?",
+        "Ok. And what else?",
+        " Did you took any medicine?",
+        "What you ate yesterday?",
+        "Is your stomach okay? And any other problems?"
+      ]
+    },
+    {
+      "tag": "problems",
+      "patterns": [
+        "No Doc",
+        "Doctor",
+        "No Doctor. Not so freely.",
+        "quite some time",
+        "couple of days, maybe",
+        "2-3 days",
+        " I ate some Junk food.",
+        "I ate at home only",
+        "I drank juice from the stall on street",
+        "Yes Doctor"
+      ],
+      "responses": [
+        "Umm okay, buy 3 doses of paracetamol, take it once a day for 3 days. YOu will be fine. And drink alot of water.",
+        "buy Aspirine-3 doses, take once in a day and deink 10 glass of water, if possible add Glucon-D in 2 glass.",
+        "Dextromethorphan buy these a pack and take in case u need, and drink alot of water.",
+        "chlorpheniramine buy these a pack and take in case u need, and drink alot of water.",
+        "phenylephrine buy these a pack and take in case u need, and drink alot of water.",
+        "You are fine, just take a little rest and drink 11-12 glass of water."
+      ]
+    }
+
+
+
+
+  ]
+}
