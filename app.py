@@ -61,7 +61,7 @@ def beginning():
 
 
 @app.route("/index.html")
-def hello ():
+def hello():
 
     return render_template('/index.html')
 

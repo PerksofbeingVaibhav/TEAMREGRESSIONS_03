@@ -11,7 +11,8 @@
         "Good day",
         "Good Morning Doctor",
         "Good Afternoon",
-        "Good evening"
+        "Good evening",
+        "help me"
       ],
       "responses": [
         "Hey :-)",
@@ -22,7 +23,7 @@
     },
     {
       "tag": "goodbye",
-      "patterns": ["Bye Doctor", "Thank you!", "Goodbye", "Take care Doc", "Thanks Doctor"],
+      "patterns": ["Bye Doctor", "Thank you!", "Goodbye", "Take care Doc","tata","Fuck off", "Thanks Doctor", "Bye!"],
       "responses": [
         "Take Care",
         "Get well soon",
@@ -32,7 +33,7 @@
     },
     {
       "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "patterns": ["Thanks", "That's helpful", "Thank's a lot!"],
       "responses": ["Happy to help!", "Any time!", "My pleasure"]
     },
     {
@@ -71,6 +72,37 @@
         "Is your stomach okay? And any other problems?"
       ]
     },
+
+    {
+      "tag": "breath",
+      "patterns": [
+        "im having breathlessness",
+        "im facing problems in breathing",
+      ],
+      "responses": [
+        "Have you tried to do yoga",
+        "Try to blow conch",
+        "Have the breathing test",
+        "Do Anlom- Vilom, and kapal bharti yoga",
+        "Try having appointment in Hospital , for physical check-up",
+        "Keep an oxy-meter, check oxygen level, regularly"
+      ]
+    },
+
+    {
+    "tag": "covid",
+    "patterns": [
+      "im feeling like, i'm having covid - 19",
+      "im covid 19 positive, what to do?",
+      "how can i take care in the covid situation"
+    ],
+    "responses":[
+      "Isolate yourself, wear a mask, and keep sanitizing your hands",
+      "keep your surrounding clean",
+      "Have a quarintine for atleast 14 days"
+    ]
+    },
+
     {
       "tag": "problems",
       "patterns": [
@@ -80,7 +112,14 @@
         "quite some time",
         "couple of days, maybe",
         "2-3 days",
+        "3 days",
+        "days",
         " I ate some Junk food.",
+        "banana",
+        "sweets",
+        "chocolate",
+        "ice cream",
+        "Fast food",
         "I ate at home only",
         "I drank juice from the stall on street",
         "Yes Doctor"
@@ -94,9 +133,5 @@
         "You are fine, just take a little rest and drink 11-12 glass of water."
       ]
     }
-
-
-
-
   ]
 }
